@@ -1,0 +1,34 @@
+.card-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+    margin: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    margin: 15px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
