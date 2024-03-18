@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 500px;
+  padding: 15px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+.task-list li button {
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 5px;
+  margin: 5px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+}
+.btn:hover {
+  background-color: white;
+  color: blueviolet;
+  transition: .2s;
+}
+
+.addTask {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
