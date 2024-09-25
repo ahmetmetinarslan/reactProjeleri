@@ -1,0 +1,38 @@
+.customer-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px; /* Formun genişliği */
+  margin-bottom: 10px;
+}
+
+.customer-input {
+  flex: 1; /* Input tüm boşluğu kaplasın */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Hafif border-radius */
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Button için de border-radius ekledim */
+  margin-left: 10px; /* Buton ve input arasında biraz boşluk */
+}
+
+button i {
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #20720d; /* Hover efekti */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
